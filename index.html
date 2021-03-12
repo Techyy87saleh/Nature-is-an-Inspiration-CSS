@@ -1,0 +1,208 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Nature</title>
+ </head>
+ <body>
+     <style>
+         :root{
+             --bg-color:#f2f2f2;
+         }
+         *{
+             padding:0;
+             margin:0;
+             box-sizing: border-box;
+           
+             font-family:"Roboto", "Arial","sans-serif";
+             font-style:italic;
+ 
+         }
+         body{
+              padding:0.7rem;
+              display: flex;
+              justify-content: center;
+         }
+         .container{
+             display: grid;
+             grid-template-columns: repeat(3,250px);
+             grid-gap:20px;
+              grid-template-areas:
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o th fi"
+              "o fo fi"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              "t fo s"
+              ". fo ."
+     
+         }
+         .one{
+              grid-area:o;
+         }
+         .two{
+              grid-area:t; 
+             background:var(--bg-color);
+             
+         }
+         .two h1{
+             padding:2.2rem;
+             display: flex;
+             justify-content: center;
+         }
+         .two p{
+             padding:2.8rem;
+             justify-content: center;
+             margin-top: -60px;
+             text-align:start;
+             line-height:1.5rem;
+              
+              
+         }
+         .three{
+            background:var(--bg-color);
+            grid-area:th;
+         }
+         .three h1{
+             padding:2.6rem;
+             display: flex;
+             justify-content: center;
+         }
+         .three p{
+             padding:2.8rem;
+             justify-content: center;
+             margin-top:-60px;
+             text-align: start;
+             line-height:1.5rem;
+          }
+         .six h1{
+              display: flex;
+             justify-content: center;
+             padding:2rem;
+         }
+         .six p{
+             padding:2.8rem;
+             justify-content: center;
+             margin-top:-60px;
+             text-align:start;
+             line-height:1.5rem;
+          }
+         .four{
+              grid-area:fo;
+         }
+         .five{
+              grid-area:fi;
+         }
+         .six{
+              grid-area:s;
+              background:var(--bg-color);
+
+
+         }
+         .one img{
+             width:250px;
+             height:368px;
+         }
+         .four img{
+             width:250px;
+             height:397px;
+         }
+         .five img{
+             width:250px;
+             height:368px;
+         }
+         @media(max-width:700px){
+             .container{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 padding:3rem;
+               }
+               .three{
+                   order:4;
+               }
+               .four{
+                    order:3;
+               }
+               .one img{
+                   width:390px;
+                   
+                  
+               }
+               .four img{
+                   width:390px;
+
+                  }
+               .five img{
+                   width:390px;
+               }
+        
+         }
+ 
+          
+         
+         
+
+     </style>
+    <div class = "container">
+    <div class = "one">
+        <img src = "nature1.jpg" alt="nature1">
+    </div>
+    <div class = "two">
+        <h1>Photography</h1>
+        <p>Nature with bear the closest inspection.She invites us to lay our eye level with her smallest leaf,and take an inspect view of its plain</p>
+    </div>  
+    <div class = "three">
+        <h1>Inspiration</h1>
+        <p>For people to thrive,we need to conserve not just the tangible benefits nature provides,but also the inspiration ,wonder and awe...</p>
+    </div>    
+    <div class = "four">
+        <img src = "nature2.jpg" alt="nature2">
+    </div>
+    <div class = "five">
+        <img src = "nature3.jpg" alt="nature3">
+    </div>
+    <div class = "six">
+        <h1>Forest</h1>
+        <p>Forest restoration is a challenging and complex undertaking of raising young trees ,transplanting them,and cultivating them year in...</p>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+     
+ </body>
+ </html>
